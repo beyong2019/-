@@ -11,8 +11,8 @@ import json
 def translator(q):
     # 百度app_id和密钥需要通过注册百度【翻译开放平台】账号后获得
     global result
-    app_id = '20211104000990717'  # 填写你的app_id
-    secret_key = 'TMWnnqq9wv9klL4Pn_kv'  # 填写你的密钥
+    app_id = 'app_id'  # 填写你的app_id
+    secret_key = 'password'  # 填写你的密钥
 
     http_client = None
     my_url = '/api/trans/vip/translate'  # 通用翻译API HTTP地址
